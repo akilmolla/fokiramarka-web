@@ -69,20 +69,23 @@ section {
     font-size: 1.5rem;
     font-weight: 200;
 }
-.section-title{
+
+.section-title {
     margin-left: 22rem;
     margin-top: 8rem;
 }
-.borde-aro{
+
+.borde-aro {
     font-weight: 300;
     font-size: 3rem;
 }
 
-.counting-1{
+.counting-1 {
     display: flex;
     gap: 8rem;
 }
-.area{
+
+.area {
     height: 60px;
     padding: 3px 20px;
     text-decoration: none;
@@ -90,27 +93,84 @@ section {
     margin-top: 5px;
     border: 2px solid rgb(188, 117, 10);
     border-radius: 8px;
-    color: rgb(65, 63, 63); 
+    color: rgb(65, 63, 63);
 }
-        
-.downe{
+
+.downe {
     margin-top: 120px;
     font-weight: 300px;
     font-size: 2rem;
     margin-bottom: 8px;
 }
- /* .donate paln */
- .up-donar{
+
+/* .donate paln */
+.up-donar {
     text-align: center;
     margin-top: 50px;
- }
-.up-donar h3{
+}
+
+.up-donar h3 {
     font-size: 3.5rem;
     font-weight: 500;
     color: ;
 }
-.vajes{
+
+.vajes {
     width: 700px;
     text-align: center;
     margin-left: 35rem;
+}
+
+/* menubar dinat */
+.dounat-menu {
+    background: #fff;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), ;
+    margin-top: 80px;
+
+
+
+}
+.dakha{
+    margin-left: 24rem;
+}
+
+.down-donar {
+   
+    display: flex;
+    gap: 40px;
+  }
+
+.dounat-salider {
+   
+    background-color: rgba(225, 178, 120, 0.749);
+    box-shadow: 0px 8px 6px rgba(240, 240, 33, 0.487);
+    height: 300px;
+    width: 250px;
+    padding: 0 15px;
+   
+
+
+}
+
+.dounat-salider i {
+    font-weight: 100;
+    font-weight: 400;
+    margin: 10px auto;
+    color: black;
+    padding: 8px 15px;
+    display: flex;
+}
+
+.dounat-salider h4 {
+    font-weight: 4rem;
+    font-size: 2rem;
+    color: gray;
+}
+
+.dounat-salider p {
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    width: 250px;
+    text-align: center;
 }
